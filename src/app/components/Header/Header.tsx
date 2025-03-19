@@ -37,7 +37,7 @@ export default function Header() {
     };
   return (
     <header className={`bg-back-color shadow-md fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'py-2' : 'py-4'} bg-vista-blue`}>
-      <nav className="container mx-auto px-4 lg:px-8 2xl:px-16">
+      <nav className="mx-auto px-4 lg:px-8 2xl:px-16">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="text-white font-bold text-xl">
