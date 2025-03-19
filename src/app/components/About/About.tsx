@@ -55,7 +55,7 @@ export default function AboutSection() {
             <h2 className="text-3xl font-bold mb-8 text-black">Our Mission</h2>
             <p className="text-lg leading-relaxed text-justify mb-8 text-black-500">
             VoltRanger is committed to transforming off-road mobility with efficient, high-performance 
-            electric technology that is sustainable. We're driven by a purpose to deliver an eco-friendly,
+            electric technology that is sustainable. We&apos;re driven by a purpose to deliver an eco-friendly,
              long-lasting, and energy-efficient off-road EV that combines power with sustainability. Through 
              innovation, safety, and energy efficiency, our goal is to rethink adventure without any emissions. 
              Drive the future of off-road discovery with us, sustainably.
