@@ -73,6 +73,31 @@ export default function AboutSection() {
         </div>
       </section>
 
+      {/* Values Section */}
+      <section className="container mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center mb-12 text-celeste">Our Core Values</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-thistle p-6 rounded-lg">
+            <h3 className="text-xl font-semibold mb-4 text-celeste">Innovation</h3>
+            <p className="text-gray-300">
+              Constantly pushing boundaries to deliver cutting-edge electrical solutions that meet tomorrow&apos;s challenges.
+            </p>
+          </div>
+          <div className="bg-thistle p-6 rounded-lg">
+            <h3 className="text-xl font-semibold mb-4 text-celeste">Sustainability</h3>
+            <p className="text-gray-300">
+              Committed to eco-friendly practices and renewable energy solutions for a greener future.
+            </p>
+          </div>
+          <div className="bg-thistle p-6 rounded-lg">
+            <h3 className="text-xl font-semibold mb-4 text-celeste">Excellence</h3>
+            <p className="text-gray-300">
+              Delivering the highest quality service and maintaining rigorous safety standards in every project.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Team Section */}
       <section className="bg-thistle py-16">
         <div className="container mx-auto px-4">
@@ -94,30 +119,7 @@ export default function AboutSection() {
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center mb-12 text-celeste">Our Core Values</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-gray-900 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-celeste">Innovation</h3>
-            <p className="text-gray-300">
-              Constantly pushing boundaries to deliver cutting-edge electrical solutions that meet tomorrow&apos;s challenges.
-            </p>
-          </div>
-          <div className="bg-gray-900 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-celeste">Sustainability</h3>
-            <p className="text-gray-300">
-              Committed to eco-friendly practices and renewable energy solutions for a greener future.
-            </p>
-          </div>
-          <div className="bg-gray-900 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-celeste">Excellence</h3>
-            <p className="text-gray-300">
-              Delivering the highest quality service and maintaining rigorous safety standards in every project.
-            </p>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 } 
