@@ -53,7 +53,7 @@ export default function AboutSection() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-black">Our Mission</h2>
             <p className="text-lg leading-relaxed mb-8 text-black-500">
-              At Voltranger, we're committed to revolutionizing the electrical industry through innovative solutions 
+              At Voltranger, we&apos;re committed to revolutionizing the electrical industry through innovative solutions 
               and sustainable practices. Our goal is to provide cutting-edge electrical services while maintaining 
               the highest standards of safety and efficiency.
             </p>
@@ -101,7 +101,7 @@ export default function AboutSection() {
           <div className="bg-gray-900 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4 text-celeste">Innovation</h3>
             <p className="text-gray-300">
-              Constantly pushing boundaries to deliver cutting-edge electrical solutions that meet tomorrow's challenges.
+              Constantly pushing boundaries to deliver cutting-edge electrical solutions that meet tomorrow&apos;s challenges.
             </p>
           </div>
           <div className="bg-gray-900 p-6 rounded-lg">

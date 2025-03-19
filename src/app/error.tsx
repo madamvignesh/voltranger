@@ -21,7 +21,7 @@ export default function Error({
         <h1 className="text-6xl font-bold text-red-500 mb-4">Oops!</h1>
         <h2 className="text-4xl font-semibold text-white mb-4">Something went wrong</h2>
         <p className="text-gray-400 text-lg mb-8">
-          Don't worry, we're on it. In the meantime, you can:
+          Don&apos;t worry, we&apos;re on it. In the meantime, you can:
         </p>
         <div className="space-x-4">
           <button
