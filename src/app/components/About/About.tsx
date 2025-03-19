@@ -9,7 +9,7 @@ export default function AboutSection() {
       description: 'Leading the Team, guiding the team and making sure the team is on the right track.'
     },
     {
-      name: 'Sai Anuirdh',
+      name: 'Sai Anirudh',
       role: 'Designer',
       image: '/assets/images/team/team2.jpg',
       description: 'Expert in smart desiging and executing.'
