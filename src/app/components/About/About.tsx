@@ -6,7 +6,7 @@ export default function AboutSection() {
       name: 'M Vignesh',
       role: 'Leader',
       image: '/assets/images/team/team1.jpg',
-      description: 'Leading the Team, guiding the team and making sure the team is on the right track.'
+      description: 'Leading the Team'
     },
     {
       name: 'Sai Anirudh',
@@ -18,13 +18,13 @@ export default function AboutSection() {
       name: 'Naveena',
       role: 'Member',
       image: '/assets/images/team/team3.jpg',
-      description: 'Specializes in power distribution and energy storage solutions.'
+      description: 'Research Assistant'
     },
     {
       name: 'Mahesh',
       role: 'Member',
       image: '/assets/images/team/team3.jpg',
-      description: 'Specializes in power distribution and energy storage solutions.'
+      description: 'Fabriation Expert'
     }
   ];
 

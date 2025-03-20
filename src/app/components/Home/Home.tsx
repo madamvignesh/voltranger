@@ -13,9 +13,9 @@ export default function HomeSection() {
   <Main>
     <div className="bg-celeste">
         <Heading className="flex md:items-center">
-            <div className="md:w-7/12 p-8 ">
+            <div className="md:w-6/12 p-8 ">
                 <h1 className="md:text-4xl md:text-left text-center font-bold text-xl">VoltRanger</h1>
-                <p className="text-justify md:text-left md:text-base text-sm">
+                <p className="text-justify md:text-base text-sm mt-5 mb-5">
                     The VoltRanger is an eco-friendly off-road electric scooter, engineered for rugged terrains.
                     Equipped with a powerful 900W motor controller and a durable AISI 4130 frame, it offers exceptional
                     performance and load-carrying capacity. Designed for low maintenance and cost-effectiveness, VoltRanger
@@ -24,9 +24,9 @@ export default function HomeSection() {
                 <button className="bg-celeste text-black px-4 py-2 rounded-md">Read More...</button>
             </div>
         </Heading>
-        <section className="bg-celeste">
+        <section className="bg-celeste mt-5">
           <div className="mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center m-6">What Our VoltRanger is Capable of?</h2>
+          <h2 className="md:text-3xl font-bold text-center text-2xl md:text-left mb-5">What Our VoltRanger is Capable of?</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               
               <div className="p-6 rounded-lg flex flex-col items-center">
@@ -50,7 +50,7 @@ export default function HomeSection() {
         </section>
         <section className="bg-celeste">
           <div>
-            <h2 className="text-3xl font-bold text-center md:text-left text-2xl m-6">Foundation of VoltRanger</h2>
+            <h2 className="text-3xl font-bold text-center md:text-left m-6">Foundation of VoltRanger</h2>
             <div className="md:flex items-center justify-between p-5 md:space-x-8">
               <h4 className="md:w-6/12 w-full text-justify">VoltRanger was founded with a vision to revolutionize off-road mobility by combining cutting-edge 
                 electric vehicle technology with sustainability. The idea was born from the need for an eco-friendly 

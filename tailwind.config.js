@@ -15,7 +15,7 @@ module.exports = {
         'lavender': '#E9E6FF',
         'thistle': '#93E8ED',
         'robin': '#45C9D0',
-        'ruddy': '#5EA3D8'
+        'ruddy': '#5EA3D8',
       },
       fontFamily: {
         // Add your custom fonts here
