@@ -1,4 +1,5 @@
 import { Heading, Main } from "./styledComponent";
+import Link from "next/link";
 import Image from "next/image";
 import icon1 from '../../assets/images/icon1.png'
 import icon2 from '../../assets/images/icon2.png'
@@ -21,7 +22,7 @@ export default function HomeSection() {
                     performance and load-carrying capacity. Designed for low maintenance and cost-effectiveness, VoltRanger
                     revolutionizes off-road travel with sustainable energy solutions.
                 </p>
-                <button className="bg-celeste text-black px-4 py-2 rounded-md">Read More...</button>
+                <Link href='/more-details' className="bg-celeste text-black px-4 py-2 rounded-md">Read More...</Link>
             </div>
         </Heading>
         <section className="bg-celeste mt-5">
