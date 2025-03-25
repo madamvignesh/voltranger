@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Voltranger - Electrical Solutions",
+  title: "Voltranger - An off-road electrical scooter",
   description: "Leading provider of innovative electrical solutions and sustainable energy technologies",
 };
 
