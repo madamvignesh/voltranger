@@ -19,12 +19,11 @@ export default function MoreDetails(){
                         VoltRanger redefines driving off-road in a world that is sustainable, bridging the 
                         excitement of exploring with the responsibility of preserving nature
                     </p>
-                    <Image src={model1} alt="VoltRanger" className="w-96 h-96 md:w-4/12 flex mx-auto md:mx-0" />
+                    <Image src={model1} alt="VoltRanger" className="w-96 h-96 m-5 md:w-4/12 flex mx-auto md:mx-0" />
                 </div>
                 <h1 className="text-3xl font-bold mb-5">Feature of VoltRanger</h1>
                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <Image src={feature1} alt="VoltRanger" className="w-96 h-96 md:w-4/12 flex mx-auto md:mx-0" />
-                    <ol className="list-decimal list-inside bg-gray-100 p-4 rounded-lg text-justify md:w-7/12">
+                    <ol className="list-decimal list-inside bg-gray-100 p-4 rounded-lg text-justify md:w-7/12 md:order-2 gap-4">
                         <li>Off-road electric vehicles offer significant advantages over their combustion-engine counterparts.</li>
                         <li>
                             Traditional off-road vehicles have long been appreciated for their strength and reliability, especially for
@@ -36,7 +35,9 @@ export default function MoreDetails(){
                             and automobile manufacturers who were seeking alternative options for heavy-duty and off-road use
                         </li>
                     </ol>
+                    <Image src={feature1} alt="VoltRanger" className="w-96 h-96 m-5 md:w-4/12 flex mx-auto md:mx-0 md:order-1" />
                 </div>
+
             </div>
         </div>
     )
